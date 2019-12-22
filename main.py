@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 from orbiter import Orbiter
 import json
 
@@ -49,10 +48,14 @@ for i in range(num):
 
 
 #Display
-for obj in Orbiter._orbiters:
-    if obj.__doc__ in displayed:
-        plt.scatter(data[obj.__doc__][0], data[obj.__doc__][1],s=obj.scale,c=obj.color)
+if (initval['Matplotlib']):
+    
+    import matplotlib.pyplot as plt
+    
+    for obj in Orbiter._orbiters:
+        if obj.__doc__ in displayed:
+            plt.scatter(data[obj.__doc__][0], data[obj.__doc__][1],s=obj.scale,c=obj.color)
 
-plt.axis([minx, maxx, miny, maxy])
-plt.show()
+    plt.axis([minx, maxx, miny, maxy])
+    plt.show()
 
