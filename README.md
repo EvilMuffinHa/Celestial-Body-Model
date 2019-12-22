@@ -1,5 +1,5 @@
 # Celestial Body Model
-Modeling the Path of Celestial Bodies through 2D Space
+Modeling the Path of Celestial Bodies through 2D Space using Euler's integration method.
 
 ## Running
 Simply run `$ python3 main.py` to run the model.  
