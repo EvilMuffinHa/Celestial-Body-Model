@@ -9,3 +9,8 @@ Change `input.json` to fit values that you would like. Follow the model provided
 Python 3.6  
 Matplotlib
 If you do not want to install Matplotlib, you can disable graphing by changing the Matplotlib value to `false` in `inputs.json`.
+
+## Sample Data
+Using the sample data provided, the graph should look like this:
+
+![Sample Data Graph Image](Graph.png)
