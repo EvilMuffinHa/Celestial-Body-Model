@@ -1,0 +1,40 @@
+{
+  "Interval": 50,
+  "Number of Intervals": 500,
+  "Displayed Bodies": ["Planet 1", "Planet 2"],
+
+  "Axes": {
+    "Min X": -0.5e7,
+    "Max X": 0.5e7,
+    "Min Y": -1.3e7,
+    "Max Y": 1.3e7
+  },
+
+
+  "Orbiters": {
+
+    "Pluto": {
+      "Name": "Planet 1",
+      "Mass": 5.98e23,
+      "X Position": 0,
+      "Y Position": 1e7,
+      "X Velocity": -8e2,
+      "Y Velocity": 1e3,
+      "Color": "Red",
+      "Scale": 1
+    },
+
+
+    "Charon": {
+      "Name": "Planet 2",
+      "Mass": 7e24,
+      "X Position": 0,
+      "Y Position": -1e7,
+      "X Velocity": 1e3,
+      "Y Velocity": 1.25e2,
+      "Color": "Blue",
+      "Scale": 1
+    }
+  }
+
+}
