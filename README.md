@@ -8,3 +8,4 @@ Change `input.json` to fit values that you would like. Follow the model provided
 ## Requirements
 Python 3.6  
 Matplotlib
+If you do not want to install Matplotlib, you can disable graphing by changing the Matplotlib value to `false` in `inputs.json`.
