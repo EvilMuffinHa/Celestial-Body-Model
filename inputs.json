@@ -1,5 +1,5 @@
 {
-  "Matplotlib": True,
+  "Matplotlib": true,
   "Interval": 50,
   "Number of Intervals": 500,
   "Displayed Bodies": ["Planet 1", "Planet 2"],
