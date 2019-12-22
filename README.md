@@ -6,5 +6,5 @@ Simply run `$ python3 main.py` to run the model.
 Change `input.json` to fit values that you would like. Follow the model provided.
 
 ## Requirements
-Python 3.6
+Python 3.6  
 Matplotlib
